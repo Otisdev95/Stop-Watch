@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background: linear-gradient(to right, rgb(63, 57, 57), #3e454a);
+}
+
 .timerBtn {
     width: 80px;
     height: 30px;
@@ -22,6 +30,7 @@
 }
 
 #container {
+    justify-content: center;
     text-align: center;
     padding: 30px;
     border: 3px solid;
